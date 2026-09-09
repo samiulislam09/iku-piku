@@ -4,6 +4,7 @@ on:
   schedule:
     # 18:00 UTC = 00:00 Bangladesh time
     - cron: "0 18 * * *"
+    workflow_dispatch:
 
   workflow_dispatch:
 
